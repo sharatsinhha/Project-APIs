@@ -1,0 +1,43 @@
+body{
+    background-color: rgb(146, 222, 241);
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.box{
+    border: 2px solid black;
+    padding: 40px 50px;
+    background-color: rgb(106, 251, 101);
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    border-radius: 5px;
+    box-shadow: 15px 15px 30px rgb(74, 113, 123);
+}
+p{
+    font-weight: bold;
+    font-size: 25px;
+    text-align: center;
+    word-wrap: break-word;
+    line-height: 35px;
+    margin: 20px 0;
+}
+span{
+    display: block;
+    text-align: center;
+    font-size: 50px;
+}
+button{
+    display: block;
+    border: none;
+    padding: 8px;
+    font-size: 20px;
+    font-size: 15px;
+    margin: 0 auto;
+    background-color: rgb(152, 51, 240);
+    cursor: pointer;
+    border-radius: 5px;
+    animation: alternate;
+}
